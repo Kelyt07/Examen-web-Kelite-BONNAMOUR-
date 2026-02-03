@@ -1,5 +1,4 @@
-const détail = document.querySelector('#main-title');
-
-détail.addEventListener('click', () => {
-  détail.textContent = "Nouveau Titre !";
+document.getElementById("boutonOk").addEventListener("click", () => {
+  document.getElementById("bienvenue").hidden = true;
+  document.getElementById("impressionnant").hidden = false;
 });

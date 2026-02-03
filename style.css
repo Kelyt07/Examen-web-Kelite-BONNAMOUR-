@@ -1,9 +1,25 @@
 body {
-    color: rgb(169, 184, 233);
-    background-color: rgb(110, 50, 138);
-
+    color: rgb(109, 93, 201);
+    background-color: rgb(207, 142, 236);
+    font-size: 20px; 
 nav {
     display: flex;
     justify-content: space-between; 
-    align-items: center;        
+    align-items: center;  
+    font-size: 15px;      
+}
+
+.panneau {
+color: rgb(169, 184, 233);
+}
+
+.bouton {
+color: rgb(169, 184, 233);
+}
+
+h1 {
+  margin-top: 0;
+  color: rgb(169, 233, 233);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
 }
