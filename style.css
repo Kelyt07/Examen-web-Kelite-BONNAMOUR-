@@ -1,0 +1,9 @@
+body {
+    color: rgb(169, 184, 233);
+    background-color: rgb(110, 50, 138);
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;        
+}
